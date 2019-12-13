@@ -50,6 +50,6 @@ https://robomongo.org/download
 :small_blue_diamond:GET '/colecoes/avaliacao' - Filtra por avaliação da coleção, da maior (5) para a menor (1);<p>
 :small_blue_diamond:POST '/adicionar' - Adiciona uma nova coleção;<p>
 :small_blue_diamond:PATCH '/avaliar:/id' - Adicionar uma nova avaliação a uma coleção através de seu id;<p>
-:small_blue_diamond:DELETE '/deletar/:id' - Remove uma coleção através de seu id.
+:small_blue_diamond:DELETE '/remover/:id' - Remove uma coleção através de seu id.
 
 
