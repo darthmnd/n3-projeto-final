@@ -42,9 +42,14 @@ https://robomongo.org/download
     
  Agora é só executar o arquivo server.js no cmd: <p>
   <b> nodemon server.js </b> <p>  
- Pronto, já está configurado.
 
+- <b>ROTAS</b>
 
-
+:small_blue_diamond:GET '/' - Exibe uma mensagem de boas-vindas;<p>
+:small_blue_diamond:GET '/colecoes' - Exibe todas as coleções disponíveis por ordem alfabética;<p>
+:small_blue_diamond:GET '/colecoes/avaliacao' - Filtra por avaliação da coleção, da maior (5) para a menor (1);<p>
+:small_blue_diamond:POST '/adicionar' - Adiciona uma nova coleção;<p>
+:small_blue_diamond:PATCH '/avaliar:/id' - Adicionar uma nova avaliação a uma coleção através de seu id;<p>
+:small_blue_diamond:DELETE '/deletar/:id' - Remove uma coleção através de seu id.
 
 
