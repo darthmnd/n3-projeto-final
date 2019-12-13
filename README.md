@@ -4,11 +4,11 @@ Chegamos ao projeto final! O curso foi desafiador e aqui está o resultado de to
 Abaixo, um guia para entender o funcionamento da API. Espero que gostem!
 
 
-- OBJETIVO
+- <b>OBJETIVO</b>
 
 Método CRUD para uma coleção de mangás.
 
-- COMO UTILIZAR?
+- <b>COMO UTILIZAR?</b>
 
 A API foi desenvolvida em Node.js, juntamente com a biblioteca Express. 
 Para armazenar as coleções, utilizei o NoSQL MongoDB e a biblioteca Mongoose. Para testar é simples!
@@ -26,19 +26,24 @@ https://robomongo.org/download
 
 :arrow_right: Será necessário instalar o nodemon (uma variação do node que atualiza alterações no projeto automaticamente) no projeto e as bibliotecas na pasta do projeto pra que funcione corretamente. Dentro da pasta, inicie um cmd e digite os seguintes comandos:<p>
 
-Para instalar o nodemon: <p>
+:small_blue_diamond:Para instalar o nodemon: <p>
   <b>npm install nodemon</b> <p>
 
-Para instalar o express: <p>
+:small_blue_diamond:Para instalar o express: <p>
   <b>npm install express</b><p>
 
-Para instalar o mongoose: <p>
+:small_blue_diamond:Para instalar o mongoose: <p>
 
 <b>npm install mongoose</b> <p>
  
  
 :arrow_right: E por fim, para navegar entre as rotas, utilize o Postman! O Localhost do projeto está na porta 3000. O download do Postman pode ser feito aqui: <p>
-  https://www.getpostman.com/downloads/
+  https://www.getpostman.com/downloads/ <p>
+    
+ Agora é só executar o arquivo server.js no cmd: <p>
+  <b> nodemon server.js </b> <p>  
+ Pronto, já está configurado.
+
 
 
 
