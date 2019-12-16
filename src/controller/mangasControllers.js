@@ -44,14 +44,14 @@ const getByRating = (request, response) => {
 
 //Insere uma coleção de mangás no banco
 const addManga = (request, response) => {
-    const mangaNome = request.body.nome;
+    const mangaTitulo = request.body.nome;
     const mangaGenero = request.body.genero;
-    const manga = new mangasCollection({nome: mangaNome, ano: mangaGenero})
+    const mangas = new mangasCollection({titulo: mangaTitulo, genero: mangaGenero})
     manga.save((error) => {
         if(error){
             return response.status(400).send(error)
         } else {
-            return response.status(201).send(manga)
+            return response.status(201).send(mangas)
         }
     })
 }

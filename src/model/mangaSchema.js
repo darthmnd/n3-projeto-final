@@ -25,5 +25,5 @@ const mangaSchema = new Schema({
         
 })
 
-const mangasCollection = mongoose.model('manga', mangaSchema)
+const mangasCollection = mongoose.model('mangas', mangaSchema)
 module.exports = mangasCollection
