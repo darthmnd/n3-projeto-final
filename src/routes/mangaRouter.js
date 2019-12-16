@@ -6,7 +6,7 @@ const controller = require("../controller/mangasControllers")
 
 router.get("/colecoes", controller.getAll)
 router.get("/colecoes/avaliacao", controller.getByRating)
-router.post ("/criar", controller.postManga)
+router.post ("/criar", controller.addManga)
 router.patch("/avaliar/:id", controller.rateManga)
 router.delete("/remover/:id", controller.deleteManga)
 
