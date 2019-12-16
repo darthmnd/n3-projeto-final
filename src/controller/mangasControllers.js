@@ -6,12 +6,11 @@ const getAll = (request, response) => {
 
         if(error){
             return response.status(500).send(error)
-        } else {
-            
+        } else {   
             return response.status(200).send(mangas.sort((primeiro, segundo) =>{
-                if(primeiro.titulo.length > segundo.titulo.length){
+                if(primeiro.titulo < segundo.titulo){
                     return -1
-                } else if(segundo.titulo.length > primeiro.titulo.length){
+                } else if(segundo.titulo > primeiro.titulo){
                     return 1
                 } else {
                     return 0
@@ -47,7 +46,7 @@ const getByRating = (request, response) => {
 const addManga = (request, response) => {
     const mangaNome = request.body.nome;
     const mangaGenero = request.body.genero;
-    const manga = new mangassCollection({nome: mangaNome, ano: mangaGenero})
+    const manga = new mangasCollection({nome: mangaNome, ano: mangaGenero})
     manga.save((error) => {
         if(error){
             return response.status(400).send(error)
