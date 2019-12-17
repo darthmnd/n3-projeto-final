@@ -30,7 +30,7 @@ https://robomongo.org/download
 :arrow_right: Será necessário instalar o nodemon (uma variação do node que atualiza alterações no projeto automaticamente) no projeto e as bibliotecas na pasta do projeto pra que funcione corretamente. Dentro da pasta, inicie um cmd e digite os seguintes comandos:<p>
 
 :small_blue_diamond:Para instalar o nodemon: <p>
-  <b>npm install nodemon</b> <p>
+  <b>npm install -g nodemon</b> <p>
 
 :small_blue_diamond:Para instalar o express: <p>
   <b>npm install express</b><p>
@@ -51,8 +51,8 @@ https://robomongo.org/download
 :small_blue_diamond:GET '/' - Exibe uma mensagem de boas-vindas;<p>
 :small_blue_diamond:GET '/colecoes' - Exibe todas as coleções disponíveis por ordem alfabética;<p>
 :small_blue_diamond:GET '/colecoes/avaliacao' - Filtra por avaliação da coleção, da maior (5) para a menor (1);<p>
-:small_blue_diamond:POST '/adicionar' - Adiciona uma nova coleção;<p>
-:small_blue_diamond:PATCH '/avaliar:/id' - Adicionar uma nova avaliação a uma coleção através de seu id;<p>
-:small_blue_diamond:DELETE '/remover/:id' - Remove uma coleção através de seu id.
+:small_blue_diamond:POST '/colecoes/adicionar' - Adiciona uma nova coleção;<p>
+:small_blue_diamond:PATCH '/colecoes/avaliar:/id' - Adicionar uma nova avaliação a uma coleção através de seu id;<p>
+:small_blue_diamond:DELETE '/colecoes/remover/:id' - Remove uma coleção através de seu id.
 
 
