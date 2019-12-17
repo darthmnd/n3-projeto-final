@@ -14,9 +14,10 @@ CRUD para uma Biblioteca com Coleção de Mangás que visa:<p>
 - <b>COMO UTILIZAR?</b>
 
 A API foi desenvolvida em Node.js, juntamente com a biblioteca Express. 
-Para armazenar as coleções, utilizei o NoSQL MongoDB e a biblioteca Mongoose. Para testar é simples!
+Para armazenar o banco das coleções, utilizei o NoSQL MongoDB e a biblioteca Mongoose. Para testar é simples!
 
-:arrow_right: Primeiramente, instalaremos o Node.js através deste link:<p>
+:arrow_right: Antes de mais nada, faça um download ou um clone deste repositório no seu computador.<p>
+:arrow_right: Em seguida, instalaremos o Node.js através deste link:<p>
 https://nodejs.org/en/download/<p>
 Siga as instruções do instalador de acordo com seu sistema operacional.
 
@@ -27,7 +28,7 @@ Para iniciar o download, selecione seu sistema operacional e a última package d
 BÔNUS: Para manipular os dados(em formato BSON/JSON) da sua API de forma mais simples, recomendo instalar também o ROBO 3T:<p>
 https://robomongo.org/download
 
-:arrow_right: Será necessário instalar o nodemon (uma variação do node que atualiza alterações no projeto automaticamente) no projeto e as bibliotecas na pasta do projeto pra que funcione corretamente. Dentro da pasta, inicie um cmd e digite os seguintes comandos:<p>
+:arrow_right: Será necessário instalar o nodemon (uma variação do node que atualiza alterações no projeto automaticamente) no projeto e as bibliotecas na pasta do projeto pra que funcione corretamente. Dentro da pasta com os arquivos do projeto, inicie um cmd/gitbash e digite os seguintes comandos:<p>
 
 :small_blue_diamond:Para instalar o nodemon: <p>
   <b>npm install -g nodemon</b> <p>
