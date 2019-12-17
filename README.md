@@ -54,7 +54,7 @@ Abra o Postman e, na barra de endereço, digite "localhost:3000" seguido de uma 
 :small_blue_diamond:GET '/colecoes' - Exibe todas as coleções disponíveis por ordem alfabética;<p>
 :small_blue_diamond:GET '/colecoes/avaliacao' - Filtra por avaliação da coleção, da maior (5) para a menor (1);<p>
 :small_blue_diamond:POST '/colecoes/adicionar' - Adiciona uma nova coleção;<p>
-:small_blue_diamond:PATCH '/colecoes/avaliar:/id' - Adiciona uma nova avaliação a uma coleção através de seu id;<p>
+:small_blue_diamond:PATCH '/colecoes/avaliar:/id' - Adiciona/atualiza uma avaliação de uma coleção através de seu id;<p>
 :small_blue_diamond:DELETE '/colecoes/remover/:id' - Remove uma coleção através de seu id.
 
-
+IMPORTANTE: as rotas de POST E PATCH são para inserir ou atualizar dados, verifique o arquivo 'mangaSchema' dentro da pasta 'src' para estruturar corretamente seu JSON. Para visualizar esses arquivos, abra-os no seu editor de códigos preferido. Para inserir os dados através do Postman, clique em 'Body', selecione a opção 'raw' e, no lugar de 'Text', selecione a opção 'JSON'. Abrirá um campo para você inserir os dados do seu JSON. Por fim, clique em SEND.
