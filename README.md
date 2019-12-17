@@ -7,9 +7,10 @@ Abaixo, um guia para entender o funcionamento da API. Espero que gostem!
 - <b>OBJETIVO</b> <p>
 CRUD para uma Biblioteca com Coleção de Mangás que visa:<p>
 
-1. Exibir e criar uma coleção de mangás, com seus respectivos títulos e gênero.
-2. Adicionar e atualizar avaliações (1-5) para as coleções usando seu id como parâmetro.
-3. Deletar coleções pelo id.
+1. Exibir (por ordem alfabética) e criar uma coleção de mangás com seus respectivos títulos e gênero.
+2. Adicionar e atualizar a avaliação (de 1-5) das coleções usando seu id como parâmetro.
+3. Exibir a coleção filtrada pela avaliação (da maior para a menor).
+4. Deletar coleções pelo id.
 
 - <b>COMO UTILIZAR?</b>
 
