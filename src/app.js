@@ -18,8 +18,7 @@ app.use(function (request, response, next) {
 })
 
 app.use(bodyParser.json())
-
 app.use("/", index)
-app.use('/mangas', mangas)
+app.use('/colecoes', mangas)
 
 module.exports = app

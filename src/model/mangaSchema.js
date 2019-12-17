@@ -16,11 +16,9 @@ const mangaSchema = new Schema({
             required: true
         },
         
-        avaliacao: [{
-            type: Number,
-            min: 1,
-            max: 5
-        }]
+        avaliacao: {
+            type: Number
+        }
 
         
 })
