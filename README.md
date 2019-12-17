@@ -4,8 +4,8 @@ Chegamos ao projeto final! O curso foi desafiador e aqui está o resultado de to
 Abaixo, um guia para entender o funcionamento da API. Espero que gostem!
 
 
-- <b>OBJETIVO</b>
-CRUD para uma Biblioteca com Coleção de Mangás que visa:
+- <b>OBJETIVO</b> <p>
+CRUD para uma Biblioteca com Coleção de Mangás que visa:<p>
 
 1. Exibir e criar uma coleção de mangás, com seus respectivos títulos e gênero.
 2. Adicionar e atualizar avaliações (1-5) para as coleções usando seu id como parâmetro.
