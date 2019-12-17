@@ -1,5 +1,5 @@
 const mangasCollection = require('../model/mangaSchema')
-const DB_URI=process.env.MONGODB_URI
+const DB_URI= process.env.MONGODB_URI
 
 //Exibe todas as coleções de mangás em ordem alfabética
 const getAll = (request, response) => {
