@@ -40,7 +40,7 @@ https://robomongo.org/download
 <b>npm install mongoose</b> <p>
  
  
-:arrow_right: E por fim, para navegar entre as rotas, utilize o Postman! O Localhost do projeto está na porta 3000. O download do Postman pode ser feito aqui: <p>
+:arrow_right: E por fim, para navegar entre as rotas, utilize o Postman! O download do Postman pode ser feito aqui: <p>
   https://www.getpostman.com/downloads/ <p>
     
  Agora é só executar o arquivo server.js no cmd: <p>
