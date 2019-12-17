@@ -1,5 +1,4 @@
 const mangasCollection = require('../model/mangaSchema')
-const DB_URI=process.env.MONGODB_URI
 
 //Exibe todas as coleções de mangás em ordem alfabética
 const getAll = (request, response) => {
@@ -102,7 +101,6 @@ module.exports = {
     addManga,
     rateManga,
     deleteManga,
-    getByRating,
-    DB_URI
+    getByRating
     
 }
