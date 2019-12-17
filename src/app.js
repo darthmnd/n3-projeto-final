@@ -2,6 +2,7 @@ const express = require("express")
 const bodyParser = require("body-parser")
 const index = require("./routes/index")
 const mangas = require("./routes/mangaRouter")
+require("dotenv-safe").config()
 
 const dataBase = require("./model/database")
 dataBase.connect()
