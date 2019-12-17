@@ -47,7 +47,7 @@ https://robomongo.org/download
   <b> nodemon server.js </b> <p>  
 
 - <b>ROTAS</b><p>
-Agora abra o Postman e, na barra de endereço, digite "localhost:3000" seguido das rotas que deseja testar. São elas:
+Abra o Postman e, na barra de endereço, digite "localhost:3000" seguido de uma das rotas que deseja testar. São elas:
 
 :small_blue_diamond:GET '/' - Exibe uma mensagem de boas-vindas;<p>
 :small_blue_diamond:GET '/colecoes' - Exibe todas as coleções disponíveis por ordem alfabética;<p>
