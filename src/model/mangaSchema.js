@@ -15,7 +15,10 @@ const mangaSchema = new Schema({
             type: String,
             required: true
         },
-        
+        volumes: {
+            type: Number,
+	    required: true
+        },
         avaliacao: {
             type: Number
         }
