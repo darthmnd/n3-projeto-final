@@ -5,7 +5,7 @@ const getAll = (request, response) => {
     mangasCollection.find((error, mangas)=>{
 
         if(error){
-            return response.status(500).send(error)
+            return response.status(404).send(error)
         } else {   
             return response.status(200).send(mangas.sort((primeiro, segundo) =>{
                 if(primeiro.titulo < segundo.titulo){
@@ -26,7 +26,7 @@ const getByRating = (request, response) => {
     mangasCollection.find((error, mangas)=>{
 
         if(error){
-            return response.status(500).send(error)
+            return response.status(404).send(error)
         } else {
             return response.status(200).send(mangas.sort((primeiro, segundo) =>{
                 if(primeiro.avaliacao > segundo.avaliacao){
@@ -68,7 +68,7 @@ const rateManga = (request, response) =>{
     
     mangasCollection.findByIdAndUpdate(id, {avaliacao}, options, (error, manga) =>{
         if(error){
-            return response.status(500).send(error)
+            return response.status(400).send(error)
 
         } else {
             if(manga){
@@ -86,7 +86,7 @@ const deleteManga = (request, response) =>{
     const id = request.params.id
     mangasCollection.findByIdAndRemove(id,(error, manga) =>{
         if(error){
-            return response.status(500).send(error)
+            return response.status(400).send(error)
         } else if(manga){
             return response.status(200).send('Coleção deletada com sucesso!' )
         } else {
